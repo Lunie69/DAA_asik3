@@ -1,8 +1,4 @@
 # Assignment 3 — Maze Escape
-
-**Course:** Design and Analysis of Algorithms  
-**Language:** Java 17+
-
 ## 1. Project Overview
 
 This project solves the Maze Escape assignment using Disjoint Set Union (DSU), minimum spanning tree algorithms, Depth-First Search (DFS), strongly connected components (SCCs), and dynamic programming on a directed acyclic graph (DAG).
@@ -225,15 +221,3 @@ The checks reported:
 - All provided examples (`tiny`, `small`, and `dag`) passed.
 
 The benchmark was run for 100 × 100, 300 × 300, and 1000 × 1000 mazes, with five measurements per algorithm at each size.
-
-## 9. AI Use
-
-ChatGPT was used as a supporting tool to help understand the assignment requirements, discuss algorithm design and complexity, troubleshoot implementation issues, and organize the README documentation.
-
-The implementation was compiled and tested locally, and the benchmark measurements reported above were collected by running the provided `Bench` program. The final submission was reviewed against the assignment requirements.
-
-## 10. Conclusion
-
-This project applies DSU, Kruskal's and Prim's minimum spanning tree algorithms, iterative DFS, Kosaraju's strongly connected components algorithm, and dynamic programming on a DAG.
-
-The implementation avoids recursive graph traversals where large inputs could cause stack overflow, compares two MST approaches, and generates visual output for the constructed maze.
