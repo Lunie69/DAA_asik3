@@ -205,11 +205,12 @@ Prim was faster in the measured runs for the 100 × 100 and 300 × 300 mazes, wh
 
 After running `Main`, the program saves the maze image to:
 
-`output/maze.png`
+<img width="264" height="355" alt="{A54B2B94-6DC1-4A2E-814B-D72F5AE585D4}" src="https://github.com/user-attachments/assets/172fced6-2ada-430f-a82c-ab0b355e0000" />
+
 
 The HTML visualization is saved to:
 
-`output/maze.html`
+[`output/maze.html`](http://localhost:63342/maze-escape-starter%20A3w7/output/maze.html?_ijt=2scgs6a1mcbohrduv7c907ol4b&_ij_reload=RELOAD_ON_SAVE)
 
 The PNG image should be committed to the repository as required by the assignment.
 
